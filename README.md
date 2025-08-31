@@ -50,7 +50,8 @@
     </a>
   </p>
 
-  ![GitHub Contribution Snake](https://github.com/kamakshibhat14/kamakshibhat14/blob/output/github-contribution-grid-snake.svg)
+  ![GitHub Contribution Snake Dark](https://raw.githubusercontent.com/kamakshibhat14/kamakshibhat14/output/github-contribution-grid-snake-dark.svg)
+
 
 
   <!-- Fun vibe -->
