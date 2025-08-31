@@ -50,8 +50,8 @@
     </a>
   </p>
 
-  <!-- Daily unique activity art (auto-updated) -->
-  ![Daily activity art](assets/daily/activity.svg)
+  ![GitHub Contribution Snake](https://github.com/kamakshibhat14/kamakshibhat14/blob/output/github-contribution-grid-snake.svg)
+
 
   <!-- Fun vibe -->
   <h3>✨ Fun Vibe Zone</h3>
