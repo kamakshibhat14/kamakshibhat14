@@ -1,0 +1,88 @@
+name: Daily Activity Art & Commits
+
+on:
+  schedule:
+    - cron: '0 0 * * *'   # runs daily at 00:00 UTC (adjust if you want other time)
+  workflow_dispatch:      # allows manual run
+
+permissions:
+  contents: write
+
+jobs:
+  art-and-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Generate activity SVG and make commits
+        env:
+          # number of commits to produce each run (increase to make darker GitHub squares)
+          COMMIT_COUNT: 3
+        run: |
+          set -euo pipefail
+
+          mkdir -p assets/daily
+
+          # Python inline script generates a small grid-style SVG with green squares + accents
+          python - <<'PY'
+          import random, datetime, os
+          GRID_W = 14     # columns
+          GRID_H = 8      # rows
+          SIZE = 14       # square size
+          GAP = 4         # gap between squares
+
+          light_to_dark = ["#e9fbe9","#bff3be","#7ed07b","#2f8f3a"]
+          accents = ["#8a2be2","#6f42c1"]  # occasional accent colors (purple)
+          svg_w = GRID_W * SIZE + (GRID_W - 1) * GAP + 20
+          svg_h = GRID_H * SIZE + (GRID_H - 1) * GAP + 34
+
+          def rect(x,y,color):
+              return f'<rect x="{x}" y="{y}" width="{SIZE}" height="{SIZE}" rx="4" fill="{color}" />\\n'
+
+          squares = []
+          for r in range(GRID_H):
+              for c in range(GRID_W):
+                  x = 10 + c * (SIZE + GAP)
+                  y = 10 + r * (SIZE + GAP)
+                  if random.random() < 0.28:
+                      color = random.choice(light_to_dark)
+                  else:
+                      color = "#ededed"
+                  # rare accent
+                  if random.random() < 0.03:
+                      color = random.choice(accents)
+                  squares.append(rect(x,y,color))
+
+          now = datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
+          footer = f'<text x="10" y="{svg_h-8}" font-size="11" fill="#333">Updated: {now}</text>\\n'
+          svg = f'<svg xmlns="http://www.w3.org/2000/svg" width="{svg_w}" height="{svg_h}" viewBox="0 0 {svg_w} {svg_h}">\\n'
+          svg += '<rect width="100%" height="100%" fill="white" />\\n'
+          svg += "".join(squares)
+          svg += footer
+          svg += '</svg>'
+
+          path = "assets/daily/activity.svg"
+          os.makedirs(os.path.dirname(path), exist_ok=True)
+          with open(path, "w", encoding="utf-8") as f:
+              f.write(svg)
+          print("Created", path)
+          PY
+
+          # create N small commits (each commit will be counted on the contribution graph)
+          for i in $(seq 1 $COMMIT_COUNT); do
+            file="assets/daily/activity-$(date -u +%Y%m%d)-$i.txt"
+            echo "Daily activity commit #$i - $(date -u)" > "$file"
+            git add assets/daily/activity.svg "$file"
+            git commit -m "chore(daily): update activity art $(date -u) #$i" || echo "no changes to commit"
+            # do NOT push here — we'll push after all commits are created
+          done
+
+          git push origin HEAD
