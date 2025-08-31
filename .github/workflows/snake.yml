@@ -2,8 +2,8 @@ name: Generate Contribution Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # daily at 00:00 UTC (change if needed)
-  workflow_dispatch:     # allows manual runs
+    - cron: "0 0 * * *"   # daily at midnight UTC
+  workflow_dispatch:     # manual run option
 
 permissions:
   contents: write
@@ -11,6 +11,7 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -28,35 +29,38 @@ jobs:
 
       - name: Show generated files
         run: |
-          echo "Files in dist:"
+          echo "Dist contents:"
           ls -la dist || true
 
-      - name: Push generated SVGs to 'output' branch
+      - name: Commit and push generated SVGs to output branch
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -euo pipefail
-          BRANCH=output
+          BRANCH="output"
 
-          # Configure git
+          # Configure git user
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          # Create orphan branch 'output' (or switch to it) and copy generated files
-          git checkout --orphan $BRANCH || git switch --orphan $BRANCH
-          # Remove all files from index and working tree (safe on orphan)
-          git rm -rf . || true
+          # If output branch exists, check it out, otherwise create orphan branch
+          if git show-ref --verify --quiet refs/heads/$BRANCH; then
+            git checkout $BRANCH
+            git rm -rf . || true
+          else
+            git checkout --orphan $BRANCH
+            # If orphan created, remove index and working files
+            git rm -rf . || true
+          fi
 
           # Copy generated files from dist to repo root
-          mkdir -p .
           cp -r dist/* .
 
-          # Add and commit (if there are changes)
+          # Add and commit if there are changes
           git add -A
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
             git commit -m "chore(snake): update contribution snake - $(date -u +"%Y-%m-%d %H:%M UTC")"
-            # Force push to ensure branch is overwritten with latest dist
             git push -f "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git" $BRANCH
           fi
