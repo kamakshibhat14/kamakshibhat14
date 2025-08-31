@@ -1,26 +1,25 @@
-<!-- Profile README loaded at github.com/kamakshibhat14 -->
 <div align="center">
 
   <img src="https://komarev.com/ghpvc/?username=kamakshibhat14&color=57b3ff" alt="profile views" />
 
-  <h1 style="margin-bottom: 6px;">Hey 👋 I'm Kamakshi</h1>
-  <p>Full Stack Developer • Learning & building interesting projects</p>
+  <h1>👋 Hey, I'm Kamakshi</h1>
+  <p>Full Stack Developer • Passionate Learner • Building useful projects</p>
 
-  <!-- Tech stack badges (you can add/edit more as needed) -->
+  <!-- Tech stack -->
   <p>
     <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
     <img alt="CSS" src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white">
-    <img alt="Dart" src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white">
     <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+    <img alt="Dart" src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white">
   </p>
 
-  <!-- GitHub stats cards -->
+  <!-- GitHub stats -->
   <table>
     <tr>
-      <td valign="top">
+      <td>
         <img src="https://github-readme-stats.vercel.app/api?username=kamakshibhat14&show_icons=true&theme=radical" alt="GitHub Stats" />
       </td>
-      <td valign="top">
+      <td>
         <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kamakshibhat14&layout=compact&theme=radical" alt="Top Languages" />
       </td>
     </tr>
@@ -36,15 +35,40 @@
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=kamakshibhat14&theme=dark" alt="GitHub Streak" />
   </p>
 
-  <!-- Connect buttons: update the links below to your real handles -->
+  <!-- Connect -->
+  <div align="center">
+
+  <h1>👋 Hey, I'm Kamakshi Bhat</h1>
+  <p>Full Stack Developer • Problem Solver • Learning Cloud & DevOps</p>
+
+  <!-- GitHub Stats -->
   <p>
-    
-    <a href="https://www.linkedin.com/in/pkamakshibhat/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-    <a href="https://leetcode.com/kamakshi_bhat" target="_blank"><img src="https://img.shields.io/badge/LeetCode-F79F1B?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode"/></a>
-    <a href="https://www.hackerrank.com/kamakshibhat9" target="_blank"><img src="https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white" alt="HackerRank"/></a>
+    <img src="https://github-readme-stats.vercel.app/api?username=kamakshibhat14&show_icons=true&theme=radical" height="150" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kamakshibhat14&layout=compact&theme=radical" height="150" />
   </p>
 
-  <!-- Fun GIF section -->
+  <!-- Streak Stats -->
+  <p>
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=kamakshibhat14&theme=dark" height="150" />
+  </p>
+
+  <!-- Social Links -->
+  <p>
+    <a href="https://www.linkedin.com/in/pkamakshibhat/" target="_blank">
+      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+    </a>
+    <a href="https://leetcode.com/kamakshi_bhat" target="_blank">
+      <img src="https://img.shields.io/badge/LeetCode-F79F1B?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode"/>
+    </a>
+    <a href="https://www.hackerrank.com/kamakshibhat9" target="_blank">
+      <img src="https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white" alt="HackerRank"/>
+    </a>
+  </p>
+
+</div>
+
+
+  <!-- Fun vibe -->
   <h3>🔥 Fun Vibe Zone</h3>
   <p>"Keep coding, keep growing."</p>
   <p>
@@ -52,18 +76,3 @@
   </p>
 
 </div>
-
----
-
-###  Pinned Projects (click “Customize your pins” on your profile and choose these or others you prefer):
-
-- **PRODIGY_FS_01** – Frontend project in JavaScript  
-- **PRODIGY_FS_02** – Python project  
-- **PRODIGY_FS_03** – Another JavaScript-based project  
-- **PRODIGY_FS_04** – CSS-based frontend work  
-- **Community_Discussion_Board** – Flutter & CRUD example (built with Dart)  
-- **food-rescue-project** – (Assuming from your list)
-
----
-
-
