@@ -62,7 +62,9 @@
   </p>
 
 </div>
-![Activity Spiral](./activity.svg)
+<!-- Daily unique activity art (auto-updated) -->
+![Daily activity art](assets/daily/activity.svg)
+
 
 
   <!-- Fun vibe -->
