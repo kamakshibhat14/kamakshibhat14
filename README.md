@@ -25,10 +25,6 @@
     </tr>
   </table>
 
-  <!-- Contribution graph -->
-  <p>
-    <img src="https://ghchart.rshah.org/kamakshibhat14" alt="GitHub Contributions Chart" />
-  </p>
 
   <!-- Streak -->
   <p>
