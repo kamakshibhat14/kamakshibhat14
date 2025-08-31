@@ -39,7 +39,7 @@
   <div align="center">
 
   <h1>👋 Hey, I'm Kamakshi Bhat</h1>
-  <p>Full Stack Developer • Problem Solver • Learning Cloud & DevOps</p>
+  <p>Full Stack Developer • Problem Solver • Quick Learner</p>
 
   <!-- GitHub Stats -->
   <p>
