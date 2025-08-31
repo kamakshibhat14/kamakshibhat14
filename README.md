@@ -66,6 +66,7 @@
   </p>
 
 </div>
+![Activity Spiral](./activity.svg)
 
 
   <!-- Fun vibe -->
