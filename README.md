@@ -16,6 +16,10 @@
     <img alt="NodeJS" src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white">
     <img alt="React" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
   </p>
+  <p align="center">
+  <!-- Light snake -->
+  <img src="https://raw.githubusercontent.com/kamakshibhat14/kamakshibhat14/output/github-contribution-grid-snake.svg" alt="GitHub contribution snake" />
+</p>
 
   <!-- GitHub stats -->
   <h3>📊 GitHub Stats</h3>
@@ -50,15 +54,9 @@
     </a>
   </p>
 
-<p align="center">
-  <!-- Light snake -->
-  <img src="https://raw.githubusercontent.com/kamakshibhat14/kamakshibhat14/output/github-contribution-grid-snake.svg" alt="GitHub contribution snake" />
-</p>
 
-<p align="center">
-  <!-- Dark snake (optional) -->
-  <img src="https://raw.githubusercontent.com/kamakshibhat14/kamakshibhat14/output/github-contribution-grid-snake-dark.svg" alt="GitHub contribution snake (dark)" />
-</p>
+
+
 
 
 
