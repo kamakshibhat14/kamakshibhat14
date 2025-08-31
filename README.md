@@ -50,7 +50,16 @@
     </a>
   </p>
 
-  ![GitHub Contribution Snake Dark](https://raw.githubusercontent.com/kamakshibhat14/kamakshibhat14/output/github-contribution-grid-snake-dark.svg)
+ <p align="center">
+  <!-- light snake -->
+  <img src="https://raw.githubusercontent.com/kamakshibhat14/kamakshibhat14/output/github-contribution-grid-snake.svg" alt="GitHub contribution snake" />
+</p>
+
+<p align="center">
+  <!-- dark snake (optional) -->
+  <img src="https://raw.githubusercontent.com/kamakshibhat14/kamakshibhat14/output/github-contribution-grid-snake-dark.svg" alt="GitHub contribution snake (dark)" />
+</p>
+
 
 
 
