@@ -12,7 +12,7 @@
 <h2 align="center">🧠 Tech Stack I Work With</h2>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,html,css,nodejs,express,mongodb,mysql,java,python,dart,flutter,git,github" />
+  <img src="https://skillicons.dev/icons?i=html,css,react,nextjs,ts,js,express,mongodb,mysql,java,python,dart,flutter,nodejs,git,github" />
 </p>
 
 ---
@@ -64,5 +64,6 @@
 
 ---
 
-<h3 align="center">😎 Thanks for stopping by!</h3>
-<p align="center"><b>Let’s build something amazing 🚀</b></p>
+<h3 align="center">😄 Glad you’re here!</h3>
+<p align="center"><b>Let’s turn ideas into impactful code 🚀</b></p>
+
