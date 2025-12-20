@@ -18,7 +18,7 @@
   <img src="https://raw.githubusercontent.com/kamakshibhat14/kamakshibhat14/output/github-contribution-grid-snake.svg" alt="GitHub contribution snake" />
 </p>
 
-## 📊 GitHub Stats — *Because Numbers Tell Stories*
+## 📊 GitHub Stats —
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=kamakshibhat14&show_icons=true&theme=radical" height="165" />
