@@ -1,96 +1,63 @@
-<div align="center">
+<div align="center"> 
 
-<img src="https://komarev.com/ghpvc/?username=kamakshibhat14&color=57b3ff" alt="profile views" />
+  <img src="https://komarev.com/ghpvc/?username=kamakshibhat14&color=57b3ff" alt="profile views" />
 
-# 👋 Hey, I'm Kamakshi Bhat
+  <h1>👋 Hey, I'm Kamakshi</h1>
+  <p>Full Stack Developer • Passionate Learner • Building useful projects</p>
 
-**Full Stack Developer | Passionate Learner | Building Real-World Web Applications**
+  <!-- Known Languages (like your uploaded image) -->
+  <h3>🛠️ Known Languages & Tools</h3>
+  <p>
+    <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+    <img alt="CSS" src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+    <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+    <img alt="Dart" src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white">
+    <img alt="Java" src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white">
+    <img alt="NodeJS" src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white">
+    <img alt="React" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
+  </p>
+  <p align="center">
+  <!-- Light snake -->
+  <img src="https://raw.githubusercontent.com/kamakshibhat14/kamakshibhat14/output/github-contribution-grid-snake.svg" alt="GitHub contribution snake" />
+</p>
 
-📍 India  
-📧 kamakshibhat14@gmail.com  
-🌐 https://kamakshibhat14.github.io  
+  <!-- GitHub stats -->
+  <h3>📊 GitHub Stats</h3>
+  <table>
+    <tr>
+      <td>
+        <img src="https://github-readme-stats.vercel.app/api?username=kamakshibhat14&show_icons=true&theme=radical" alt="GitHub Stats" />
+      </td>
+      <td>
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kamakshibhat14&layout=compact&theme=radical" alt="Top Languages" />
+      </td>
+    </tr>
+  </table>
 
----
+  <!-- Streak -->
+  <h3>🔥 GitHub Streak</h3>
+  <p>
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=kamakshibhat14&theme=dark" alt="GitHub Streak" />
+  </p>
+
+  <!-- Connect -->
+  <h3>🌐 Connect with me</h3>
+  <p>
+    <a href="https://www.linkedin.com/in/pkamakshibhat/" target="_blank">
+      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+    </a>
+    <a href="https://leetcode.com/kamakshi_bhat" target="_blank">
+      <img src="https://img.shields.io/badge/LeetCode-F79F1B?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode"/>
+    </a>
+    <a href="https://www.hackerrank.com/kamakshibhat9" target="_blank">
+      <img src="https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white" alt="HackerRank"/>
+    </a>
+  </p>
+  <!-- Fun vibe -->
+  <h3>✨ Fun Vibe Zone</h3>
+  <p>"Keep coding, keep growing."</p>
+  <p>
+    <img src="https://media.giphy.com/media/3o6gbbuLW76jkt8vIc/giphy.gif" alt="fun coding GIF" width="400"/>
+  </p>
 
 </div>
-
-## 👩‍💻 Who Am I?
-
-- 🔥 **Passion:** Creating clean, efficient, and user-friendly web applications  
-- 💻 **Role:** Full Stack Developer  
-- ☁️ **Currently Exploring:** Cloud Computing & DevOps fundamentals  
-- 🎯 **Mission:** Learn continuously, build meaningfully, and grow professionally  
-
----
-
-## 🧠 Tech Stack I Work With
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,html,css,nodejs,express,mongodb,mysql,java,python,dart,flutter,git,github" />
-</p>
-
----
-
-## 📊 GitHub Stats — *Because Numbers Tell Stories*
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=kamakshibhat14&show_icons=true&theme=radical" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kamakshibhat14&layout=compact&theme=radical" height="165" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=kamakshibhat14&theme=dark" />
-</p>
-
----
-
-## 🔗 Connect With Me
-
-<p align="center">
-  <a href="https://twitter.com/" target="_blank">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" />
-  </a>
-  <a href="https://www.linkedin.com/in/pkamakshibhat/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="https://www.geeksforgeeks.org/" target="_blank">
-    <img src="https://img.shields.io/badge/GeeksforGeeks-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white" />
-  </a>
-  <a href="https://www.hackerrank.com/kamakshibhat9" target="_blank">
-    <img src="https://img.shields.io/badge/HackerRank-00EA64?style=for-the-badge&logo=hackerrank&logoColor=white" />
-  </a>
-  <a href="https://leetcode.com/kamakshi_bhat" target="_blank">
-    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" />
-  </a>
-</p>
-
----
-
-## 🎨 Fun Vibe Zone
-
-> *"Your code is your canvas, and the browser is your gallery."*
-
-<p align="center">
-  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="350" />
-</p>
-
----
-
-## 🎯 My Current Focus
-
-- 🚀 Becoming a stronger problem solver  
-- 💡 Growing into a skilled Full Stack Developer  
-- ☁️ Learning Cloud & DevOps basics  
-- 🤝 Sharing knowledge and helping peers  
-
----
-
-## 😎 Thanks for stopping by!
-
-<p align="center">
-  <b>Let's Build Something Amazing 🚀</b>
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/kamakshibhat14/kamakshibhat14/output/github-contribution-grid-snake.svg" />
-</p>
