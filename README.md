@@ -27,12 +27,11 @@
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=kamakshibhat14&show_icons=true&theme=radical&cache_seconds=21600" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kamakshibhat14&layout=compact&theme=radical&cache_seconds=21600" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kamakshibhat14&layout=compact&theme=radical" height="165" />
 </p>
 
-
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=kamakshibhat14&theme=dark" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=kamakshibhat14&theme=dark" />
 </p>
 
 ---
